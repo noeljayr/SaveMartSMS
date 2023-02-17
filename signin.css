@@ -1,0 +1,51 @@
+html,
+body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: #bbb7b8;
+  background-image: url(./Untitlassdfaed-1.png);
+  background-repeat: no-repeat;
+  background-position: right;
+  backface-visibility: 30%;
+  
+  
+}
+
+
+.form-signin {
+  
+  max-width: 400px;
+ 
+  padding: 15px;
+  margin: auto;
+  margin-bottom: 12.9%;
+  border: 1px grey solid;
+  border-radius: 10px;
+  margin-top: 10%;
+  width: 40%;
+  margin-right: 40%;
+  
+}
+
+
+.form-signin .form-floating:focus-within {
+  z-index: 2;
+}
+
+.form-signin input[type="text"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
